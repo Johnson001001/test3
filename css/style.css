@@ -1,0 +1,108 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+    
+    .container {
+        max-width: 940px;
+        margin-left:  auto;
+        margin-right: auto;
+        background:url(../images/color-tile.png) left bottom repeat-x,url(../images/color-tile.png) left top repeat-x;
+        background-color: #FFF;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+header {
+    /* width: 800px; */
+    height: 250px;
+    color: #e64d0b;
+    padding-left: 20px;
+    padding-right: 15px;
+    background: #12e75d;
+}
+
+body header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #0a0000;
+    color: #1D3124;
+    font-size: 2rem;
+}
+
+.nav {
+    margin-top: 2px;
+    background-color: #96dfb0;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a:visited {
+    color: #1D3124;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: #19dd5d;
+    /* text-decoration: underline; */
+    color: #fff;
+}
+
+.content-area {
+    display: flex;
+ 
+}
+
+article {
+    flex: 2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 1px;
+    border-left: 2px dotted #b2a497;
+    border-top: 2px dotted #b2a497;
+    border-bottom: 2px dotted #b2a497;
+    border-image-width: auto;
+}
+
+aside {
+    flex: 1;
+    min-height: 500px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+    border-top: 2px dotted #b2a497;
+    border-bottom: 2px dotted #b2a497;
+}
+
+footer {
+    width: 800px;
+    height: 120px;
+    padding-top: 20px;
+    background: #08f858;
+}
+
+div .content-area {
+    /* width: 800px; */
+}
